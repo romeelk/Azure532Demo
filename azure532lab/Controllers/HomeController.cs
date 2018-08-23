@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,6 +11,7 @@ namespace azure532lab.Controllers
     {
         public ActionResult Index()
         {
+            Trace.TraceError("You should only see this if Error level or Verbose is On");
             return View();
         }
 
