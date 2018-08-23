@@ -11,7 +11,7 @@ namespace azure532lab.Controllers
     {
         public ActionResult Index()
         {
-            Trace.TraceError("You should only see this if Error level or Verbose is On");
+            Trace.WriteLine("You should only see this if Error level or Verbose is On");
             return View();
         }
 
